@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C33ECD2215F3C6F0003FB08 /* poop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C33ECD1215F3C6F0003FB08 /* poop.png */; };
 		2C4D2E512156EBF300C15B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D2E502156EBF200C15B92 /* AppDelegate.swift */; };
 		2C4D2E532156EBF300C15B92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D2E522156EBF300C15B92 /* ViewController.swift */; };
 		2C4D2E552156EBF600C15B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D2E542156EBF600C15B92 /* Assets.xcassets */; };
 		2C4D2E582156EBF600C15B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4D2E562156EBF600C15B92 /* Main.storyboard */; };
 		2C4D2E642156EBF600C15B92 /* feigenbaumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D2E632156EBF600C15B92 /* feigenbaumTests.swift */; };
 		2C4D2E6F2156EBF600C15B92 /* feigenbaumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D2E6E2156EBF600C15B92 /* feigenbaumUITests.swift */; };
+		2C4D2E7D2156EC2200C15B92 /* Feigenbaum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4D2E7C2156EC2200C15B92 /* Feigenbaum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C33ECD1215F3C6F0003FB08 /* poop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poop.png; sourceTree = "<group>"; };
 		2C4D2E4D2156EBF200C15B92 /* feigenbaum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feigenbaum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4D2E502156EBF200C15B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C4D2E522156EBF300C15B92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		2C4D2E6A2156EBF600C15B92 /* feigenbaumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = feigenbaumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4D2E6E2156EBF600C15B92 /* feigenbaumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feigenbaumUITests.swift; sourceTree = "<group>"; };
 		2C4D2E702156EBF600C15B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4D2E7C2156EC2200C15B92 /* Feigenbaum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feigenbaum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				2C4D2E562156EBF600C15B92 /* Main.storyboard */,
 				2C4D2E592156EBF600C15B92 /* Info.plist */,
 				2C4D2E5A2156EBF600C15B92 /* feigenbaum.entitlements */,
+				2C4D2E7C2156EC2200C15B92 /* Feigenbaum.swift */,
+				2C33ECD1215F3C6F0003FB08 /* poop.png */,
 			);
 			path = feigenbaum;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			files = (
 				2C4D2E552156EBF600C15B92 /* Assets.xcassets in Resources */,
 				2C4D2E582156EBF600C15B92 /* Main.storyboard in Resources */,
+				2C33ECD2215F3C6F0003FB08 /* poop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 			files = (
 				2C4D2E532156EBF300C15B92 /* ViewController.swift in Sources */,
 				2C4D2E512156EBF300C15B92 /* AppDelegate.swift in Sources */,
+				2C4D2E7D2156EC2200C15B92 /* Feigenbaum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,9 +10,14 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet var imageView: NSImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let feigenbaum = Feigenbaum()
+        imageView.image = NSImage(cgImage: feigenbaum.cgImage, size: feigenbaum.size)
+        
         // Do any additional setup after loading the view.
     }
 
